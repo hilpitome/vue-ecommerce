@@ -3,17 +3,28 @@ var app = new Vue({
     data: {
         product: 'boots',
         inStock:true,
-        image:'./assets/socks.png',
+        image:'./assets/blue-socks.jpeg',
         details:["gender nuetrol", "80% cotton", "20% polyester"],
         variants:[
             {
                 variantId:120,
-                variantColor:"blue"
+                variantColor:"blue",
+                variantImage:'./assets/blue-socks.jpeg'
             },
             {
                 variantId:122,
-                variantColor:"greed"
+                variantColor:"green",
+                variantImage:'./assets/green-socks.png'
             }
-        ]
+        ],
+        cart:0
+    },
+    methods:{
+        addToCart: function(){
+            this.cart +=1;
+        },
+        updateProduct: function(variantImage){
+            this.image = variantImage;
+        }
     }
 });

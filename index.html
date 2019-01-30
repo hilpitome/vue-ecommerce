@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml" xmlns:v-on="http://www.w3.org/1999/xhtml">
 <head>
     <meta name="viewport" width="device-width" charset="UTF-8">
     <title>Product app</title>
@@ -12,14 +12,21 @@
              <img :src="image" height="150" width="120">
          </div>
          <div class="product-info">
+             <div v-for="variant in variants" :key="variant.variantId">
+                 <p @mouseover="updateProduct(variant.variantImage)">{{variant.variantColor}}</p>
+             </div>
              <h1>{{product}}</h1>
              <p v-if="inStock">In stock</p>
              <p v-else>Out of stock</p>
              <ul>
                  <li v-for="detail in details">{{detail}}</li>
              </ul>
+
              <div>
-                 <p v-for="variant in variants" :key="variant.variantId">{{variant.variantColor}}</p>
+                 <button v-on:click="addToCart">Add to cart</button>
+             </div>
+             <div>
+                 <p>Cart ({{cart}})</p>
              </div>
          </div>
          
