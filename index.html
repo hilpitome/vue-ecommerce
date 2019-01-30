@@ -18,6 +18,9 @@
              <ul>
                  <li v-for="detail in details">{{detail}}</li>
              </ul>
+             <div>
+                 <p v-for="variant in variants" :key="variant.variantId">{{variant.variantColor}}</p>
+             </div>
          </div>
          
      </div>
