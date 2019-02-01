@@ -21,8 +21,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="87">
-                  <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+                <state relative-caret-position="95">
+                  <caret line="9" column="57" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="57" />
                 </state>
               </provider>
             </entry>
@@ -43,11 +43,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="66">
-                  <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
-                  <folding>
-                    <element signature="e#2087#2286#0" />
-                  </folding>
+                <state relative-caret-position="15">
+                  <caret line="96" column="14" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -69,6 +66,8 @@
       <find>instoc</find>
       <find>shipping</find>
       <find>premium</find>
+      <find>pre</find>
+      <find>updateCart</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,12 +143,12 @@
       <updated>1548834087095</updated>
       <workItem from="1548834093073" duration="2847000" />
       <workItem from="1548842525089" duration="4152000" />
-      <workItem from="1549007974621" duration="9247000" />
+      <workItem from="1549007974621" duration="10762000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16246000" />
+    <option name="totallyTimeSpent" value="17761000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -157,7 +156,7 @@
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info auto_hide="true" x="958" y="621" width="319" height="614" id="Project" order="2" type="FLOATING" visible="true" weight="0.25" />
+      <window_info active="true" auto_hide="true" x="1088" y="552" width="319" height="614" id="Project" order="2" type="FLOATING" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -167,7 +166,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.09120521" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2752443" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -187,18 +186,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="95">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
-          <folding>
-            <element signature="e#2087#2286#0" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="96" column="14" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
         </state>
       </provider>
     </entry>
